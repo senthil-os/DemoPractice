@@ -42,6 +42,10 @@ namespace AutoDriving
                 //Vehicle Destination reached
                 Console.WriteLine("{0} {1} {2}", currentPosition.Item1, currentPosition.Item2, currentPosition.Item3);
             }
+             else
+            {
+                Console.WriteLine("Invalid Inputs, Kindly Check the inputs.");
+            }
             Console.ReadKey();
         }
     }
