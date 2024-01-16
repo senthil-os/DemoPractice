@@ -1,0 +1,13 @@
+E:\2023\BackEnd\AutoDriving\AutoDriving\bin\Debug\netcoreapp3.1\AutoDriving.exe
+E:\2023\BackEnd\AutoDriving\AutoDriving\bin\Debug\netcoreapp3.1\AutoDriving.deps.json
+E:\2023\BackEnd\AutoDriving\AutoDriving\bin\Debug\netcoreapp3.1\AutoDriving.runtimeconfig.json
+E:\2023\BackEnd\AutoDriving\AutoDriving\bin\Debug\netcoreapp3.1\AutoDriving.runtimeconfig.dev.json
+E:\2023\BackEnd\AutoDriving\AutoDriving\bin\Debug\netcoreapp3.1\AutoDriving.dll
+E:\2023\BackEnd\AutoDriving\AutoDriving\bin\Debug\netcoreapp3.1\AutoDriving.pdb
+E:\2023\BackEnd\AutoDriving\AutoDriving\obj\Debug\netcoreapp3.1\AutoDriving.csprojAssemblyReference.cache
+E:\2023\BackEnd\AutoDriving\AutoDriving\obj\Debug\netcoreapp3.1\AutoDriving.AssemblyInfoInputs.cache
+E:\2023\BackEnd\AutoDriving\AutoDriving\obj\Debug\netcoreapp3.1\AutoDriving.AssemblyInfo.cs
+E:\2023\BackEnd\AutoDriving\AutoDriving\obj\Debug\netcoreapp3.1\AutoDriving.csproj.CoreCompileInputs.cache
+E:\2023\BackEnd\AutoDriving\AutoDriving\obj\Debug\netcoreapp3.1\AutoDriving.dll
+E:\2023\BackEnd\AutoDriving\AutoDriving\obj\Debug\netcoreapp3.1\AutoDriving.pdb
+E:\2023\BackEnd\AutoDriving\AutoDriving\obj\Debug\netcoreapp3.1\AutoDriving.genruntimeconfig.cache
