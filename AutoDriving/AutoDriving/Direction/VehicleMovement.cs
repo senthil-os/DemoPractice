@@ -117,6 +117,11 @@ namespace AutoDriving.Direction
             else { }//No Implementation
 
         }
+        /// <summary>
+        /// Takes the journey Path and implement the steps
+        /// </summary>
+        /// <param name="strPath"></param>
+        /// <returns></returns>
         public Tuple<int, int, Char> JourneyDestination(string strPath)
         { 
         Char _left = (Char)Util.Movement.TurnLeft;
