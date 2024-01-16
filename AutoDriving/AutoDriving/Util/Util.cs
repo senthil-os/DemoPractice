@@ -1,5 +1,6 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace AutoDriving.Util
@@ -7,7 +8,9 @@ namespace AutoDriving.Util
   public class Util
     {
         Char splitChar = ' ';
+        string strNEWS = "NEWS";
         public Util(){ }
+
         /// <summary>
         /// Validate the maxcoodinate string 
         /// </summary>
@@ -44,8 +47,7 @@ namespace AutoDriving.Util
                 Int32.TryParse(position[0], out iPositionX);
                 Int32.TryParse(position[1], out iPositionY);
                 direction = position[2].ToCharArray()[0];
-               var validDirection = (Direction)Enum.ToObject(typeof(Direction) ,direction);
-                isValid = true;
+                isValid = strNEWS.Contains(direction);
             }
             catch (Exception ex) 
             {
@@ -60,7 +62,7 @@ namespace AutoDriving.Util
         /// <returns></returns>
         public bool ValidateDestinationPath(string destinationPath)
         {
-            char[] path = destinationPath.ToCharArray();
+            char[] path = destinationPath.ToCharArray();            
             return path.Length > 0;
         }
     }
