@@ -1,5 +1,20 @@
+Files-Folder structure
+-----------------------------------------------------------------------
+Project Solution: AutoDriving\AutoDriving.sln
+Project1:AutoDriving\AutoDriving\AutoDriving.csproj
+   --Direction(Folder)
+            --IVehicleMovement.cs
+            --VehicleMovement.cs
+   --Util(Folder)
+          --Direction.cs(enum)
+          --Movement.cs(enum)
+          --Util.cs
+   --Program.cs
+Project2:AutoDriving\AutoDrivingTest\AutoDrivingTest.csproj
+  --UtilTest.cs
+  --VehicleMovementTest.cs
+----------------------------------------------------------------------------
 # Auto Driving Car Simulation
-
 ## Part 1
 You're working on a brand new auto driving car to compete against Tesla. You've already gotten the prototype car working but rather primitively.
 
