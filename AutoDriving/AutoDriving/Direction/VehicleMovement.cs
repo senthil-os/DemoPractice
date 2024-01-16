@@ -112,7 +112,7 @@ namespace AutoDriving.Direction
             }
             else if (Direction == Util.Direction.West)
             {
-                PositionX = (PositionX - 1) > MinX ? PositionX : (PositionX - 1);
+                PositionX = (PositionX - 1) < MinX ? PositionX : (PositionX - 1);
             }
             else { }//No Implementation
 
